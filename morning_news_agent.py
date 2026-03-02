@@ -9,10 +9,10 @@ from datetime import datetime
 # --------------------------
 
 LM_STUDIO_URL = "http://127.0.0.1:1234/v1/chat/completions"
-MODEL_NAME = "google/gemma-3-4b"
+MODEL_NAME = "YOUR MODEL"
 
-GMAIL_ADDRESS = "c02tice@gmail.com"
-GMAIL_APP_PASSWORD = "asglzxlykgyyvkdb"
+GMAIL_ADDRESS = "YOUR EMAIL"
+GMAIL_APP_PASSWORD = "YOUR PASSWORD"
 
 RSS_FEEDS = [
     "https://news.google.com/rss/search?q=artificial+intelligence",
@@ -127,3 +127,4 @@ if __name__ == "__main__":
     send_email(summary)
 
     print("Done.")
+
